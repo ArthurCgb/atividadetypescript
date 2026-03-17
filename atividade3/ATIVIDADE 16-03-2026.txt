@@ -1,0 +1,18 @@
+ATIVIDADE 16/03/2026
+
+PARTE 1
+
+ISP
+violação: interface Funcionario obriga implementação de métodos desnecessários
+motivo: classes implementam métodos que não usam
+impacto: uso de throw, baixa coesão e dificuldade de manutenção
+
+LSP
+violação: métodos lançando error nas subclasses
+motivo: subclasses não substituem corretamente a interface
+impacto: quebra de polimorfismo e erros em runtime
+
+DIP
+violação: ausencia de abstrações adequadas para uso por camadas superiores
+motivo: dependencia de uma interface inadequada e rígida
+impacto: alto acoplamento e dificuldade de extensão
